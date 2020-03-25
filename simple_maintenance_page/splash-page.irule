@@ -1,0 +1,7 @@
+when HTTP_REQUEST {
+  set vsPool [LB::server pool]
+  if { [active_members $vsPool] < 1 } {
+   # log local0. "Client [IP::client_addr] requested [HTTP::uri] no active nodes available..."
+      HTTP::respond 200 content "[ifile get  maintenance-splash-page.html]" "Content-Type" "text/html" noserver "Cache-Control" "no-store, no-cache"
+      }
+  }
