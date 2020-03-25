@@ -7,4 +7,3 @@ The Advanced hosted Page is more advanced and can be used to host a full blow we
 ![Demo](webpage_demo.png)
 
 
-
