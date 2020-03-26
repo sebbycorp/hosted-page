@@ -1,0 +1,19 @@
+#maintenance-page {
+    width: 770px;
+    min-height: 525px;
+    text-align: center;
+    font: 1em "Open Sans",sans-serif;
+    color: #333;
+    background: #EEF2F5;
+  }
+  #maintenance-page h1 {
+    padding: 40px 0 25px;
+    text-align: center;
+    font: bold 2.5em "Open Sans",sans-serif;
+    color: #084D8B;
+    margin: 0;
+  }
+  #maintenance-page p {
+      padding: 25px 0px 40px;
+      font-size: 1em;
+  }
